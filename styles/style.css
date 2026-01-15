@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+    background: rgba(255, 255, 255, 1);
+    ;
+}
+
+header>section {
+    max-width: 1188px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+main>section {
+    max-width: 1047px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+
+#sponsor,
+#featured-product {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+
+
+
+/* nav section */
+.nav-container {
+    justify-content: space-between;
+    padding-top: 87px;
+}
+
+.nav-container h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-link ul {
+    gap: 34px;
+
+}
+
+.nav-link ul li {
+    list-style: none;
+}
+
+.nav-link ul a {
+    text-decoration: none;
+    color: rgba(58, 58, 58, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* hero section */
+.btn-primary {
+    border-radius: 41px;
+    background: rgba(224, 44, 109, 1);
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    width: 196px;
+}
+
+.hero-title {
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+}
+
+.hero-title h2 {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.hero-title p {
+    color: rgba(58, 58, 58, 1);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.hero-container {
+    gap: 133px;
+}
+
+.hero-img img {
+    background-image: url(../images/Circle\ design.svg);
+}
+
+/* sponsor section */
+.sponsor-container {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.sponsor-container img {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* collection section */
+.collection-container h3 {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 78px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card {
+    flex-direction: column;
+    gap: 7px;
+}
+
+.card-info h5 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.card-info h6 {
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 150%;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.card-info p {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 143%;
+    letter-spacing: 1.8%;
+
+}
+
+.card {
+    max-width: 329px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    background: rgba(255, 255, 255, 1);
+    padding: 15px;
+}
+
+.collection-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.collection-txt {
+    text-align: right;
+    margin-top: 50px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/* featured section */
+.featured-product-container {
+    align-items: center;
+    gap: 96px;
+}
+
+.feature-info h2 {
+    font-size: 2.10rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.feature-info p {
+    color: rgba(108, 108, 108, 1);
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+.btn-secandary{
+    margin-top: 16px;
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 1);
+    border: none;
+}
+/* footer section000 */
+.footer-container{
+     background-color: rgba(10, 8, 38, 1);
+    text-align: center;
+}
+.footer-txt{
+    flex-direction: column;
+    gap: 3px;
+}
