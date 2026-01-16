@@ -15,7 +15,7 @@ header>section {
 main>section {
     max-width: 1047px;
     margin: 0 auto;
-    /* margin-bottom: 100px; */
+    margin-bottom: 100px;
 }
 
 
@@ -205,4 +205,32 @@ footer>section{
 }
 footer{
     background: rgba(10, 8, 38, 1);
+}
+.hide{
+    display: none !important;
+}
+@media screen and (max-width:576px) {
+    .featured-product-container{
+        flex-direction: column-reverse;
+    }
+    .feature-info{
+        padding: 10px;
+        text-align: center;
+    }
+    .featured-product-container img{
+        margin: 20px;
+        width: 100%;
+    }
+    .collection-card{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        margin:10px;
+    }
+    .sponsor-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .hero-container{
+        flex-direction: column-reverse;
+    }
 }
